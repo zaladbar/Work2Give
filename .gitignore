@@ -42,3 +42,5 @@ release-*/
 # ----- Repomix & marketing -----
 repomix-output.xml
 marketing/
+
+!.env.example
