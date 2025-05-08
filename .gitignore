@@ -1,0 +1,44 @@
+# ----- OS / editor -----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ----- Secrets -----
+.env
+.env.*
+
+# ----- Logs -----
+logs/
+*.log
+
+# ----- Node / React -----
+node_modules/
+dist/
+build/
+.vite-cache/
+
+# ----- Python -----
+__pycache__/
+*.pyc
+.venv/
+
+# ----- Rust / Tauri -----
+src-tauri/target/
+
+# ----- Runtime data -----
+ledger_server/ledger.json
+# ActivityWatch’s SQLite DB (path is platform-dependent; pattern works cross-platform)
+**/aw-server/peewee-sqlite.v2.db
+
+# ----- Release artefacts -----
+release-*/
+*.zip
+*.exe
+*.msi
+*.dmg
+*.AppImage
+
+# ----- Repomix & marketing -----
+repomix-output.xml
+marketing/

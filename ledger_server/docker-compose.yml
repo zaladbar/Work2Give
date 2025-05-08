@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ledger:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./ledger.json:/app/ledger.json
