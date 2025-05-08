@@ -8,6 +8,9 @@ Thumbs.db
 .env
 .env.*
 
+# Keep example .env
+!.env.example
+
 # ----- Logs -----
 logs/
 *.log
@@ -42,5 +45,3 @@ release-*/
 # ----- Repomix & marketing -----
 repomix-output.xml
 marketing/
-
-!.env.example
